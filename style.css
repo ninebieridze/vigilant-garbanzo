@@ -110,3 +110,101 @@ a {
 .upload-btn:hover{
     background:#ff2288;
 }
+
+.sidebar{
+    width:260px;
+    min-height:100vh;
+    background: #222222;
+    color:white;
+    padding:30px 25px;
+}
+.logo{
+    margin-bottom:40px;
+}
+
+.logo h1{
+    font-size:24px;
+    font-weight:800;
+}
+
+.logo span{
+    font-weight:300;
+}
+
+.menu{
+    list-style:none;
+}
+
+.menu li{
+    margin-bottom:15px;
+}
+
+.menu a{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:15px 20px;
+    border-radius:12px;
+    color:white;
+    transition:.3s;
+}
+
+.menu a:hover{
+    background:#ff2288;
+}
+
+.menu .active a{
+    background:#ff2288;
+}
+
+.following{
+    margin-top:50px;
+}
+
+.following h2{
+    color:#FFFFFF;
+    font-size:13px;
+    margin-bottom:20px;
+}
+
+.person{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:18px;
+}
+
+.person img{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.person span{
+    font-size:14px;
+}
+
+.load{
+    display:inline-block;
+    margin-top:15px;
+    color: white;
+    font-size:14px;
+}
+
+.page{
+    display: flex;
+}
+
+.sidebar{
+    width:260px;
+    min-height:100vh;
+}
+
+.right{
+    flex:1;
+}
+
+.header{
+    height:90px;
+}
