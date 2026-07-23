@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body{
+    background:#FFFFFF;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header{
+    width:100%;
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 30px;
+}
+
+.search-box{
+    width:450px;
+    height:55px;
+    background: #f8f8f8;
+    border-radius:15px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 20px;
+}
+
+.search-box input{
+    width:100%;
+    border:none;
+    outline:none;
+    background:transparent;
+    font-size:15px;
+    color:#111111;
+}
+
+.search-box button{
+    border:none;
+    background:none;
+    cursor:pointer;
+    font-size:22px;
+    color:#111111;
+}
+
+.nav-right{
+    display:flex;
+    align-items:center;
+    gap:28px;
+}
+
+.pro{
+    text-decoration:none;
+    color:#ff2288;
+    font-size:14px;
+    font-weight:600;
+}
+
+.icon{
+    position:relative;
+    font-size:20px;
+}
+
+.dot{
+    position:absolute;
+    width:8px;
+    height:8px;
+    background:#ff2288;
+    border-radius:50%;
+    top:-3px;
+    right:-3px;
+}
+
+.profile-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.profile{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    cursor: pointer;
+}
+
+.upload-btn{
+    border:none;
+    background:#ff2288;
+    color:white;
+    padding:16px 40px;
+    border-radius:14px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.upload-btn:hover{
+    background:#ff2288;
+}
