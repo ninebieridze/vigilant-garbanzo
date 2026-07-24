@@ -454,4 +454,183 @@ a {
     background: #e7e7e7;
 }
 
+
+@media (max-width: 1024px){
+
+    .sidebar{
+        width: 220px;
+        padding: 20px;
+    }
+
+    .header{
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .search-box{
+        width: 300px;
+    }
+
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .designers{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-links{
+        gap:40px;
+    }
+
+    .orders-table{
+        display:block;
+        overflow-x:auto;
+        white-space:nowrap;
+    }
+}
+
+
+@media (max-width:768px){
+
+    .page{
+        flex-direction:column;
+    }
+
+    .sidebar{
+        width:100%;
+        min-height:auto;
+        padding:20px;
+    }
+
+    .following{
+        display:none;
+    }
+
+    .menu{
+        display:flex;
+        overflow-x:auto;
+        gap:10px;
+        margin-top:20px;
+    }
+
+    .menu li{
+        margin-bottom:0;
+        flex-shrink:0;
+    }
+
+    .header{
+        flex-direction:column;
+        height:auto;
+        padding:20px;
+        gap:20px;
+    }
+
+    .search-box{
+        width:100%;
+    }
+
+    .nav-right{
+        width:100%;
+        justify-content:space-between;
+        gap:10px;
+        flex-wrap:wrap;
+    }
+
+    .upload-btn{
+        width:100%;
+    }
+
+    .content{
+        padding:20px;
+    }
+
+    .categories{
+        flex-wrap:wrap;
+        gap:12px;
+    }
+
+    .filter-btn{
+        margin-left:0;
+        width:100%;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .designers{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+        justify-items:center;
+    }
+
+    .designer{
+        width:100%;
+    }
+
+    .orders-table{
+        display:block;
+        overflow-x:auto;
+        white-space:nowrap;
+    }
+
+    .footer{
+        padding:40px 20px;
+    }
+
+    .footer-links{
+        flex-direction:column;
+        gap:30px;
+    }
+
+    .footer-bottom{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+}
+
+
+
+@media (max-width:480px){
+
+    .logo h1{
+        font-size:20px;
+    }
+
+    .search-box{
+        height:48px;
+    }
+
+    .profile{
+        width:40px;
+        height:40px;
+    }
+
+    .upload-btn{
+        padding:14px;
+    }
+
+    .designers{
+        grid-template-columns:1fr;
+    }
+
+    .cards{
+        gap:20px;
+    }
+
+    .categories a{
+        font-size:14px;
+    }
+
+    .orders-table thead th,
+    .orders-table tbody td{
+        font-size:13px;
+        padding:12px;
+    }
+}
+
  
