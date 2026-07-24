@@ -275,3 +275,52 @@ a {
     color:#555;
 }
 
+.content{
+    padding:40px;
+}
+
+.orders-table{
+    width:100%;
+    border-collapse:separate;
+    border-spacing:0 12px;
+}
+
+.orders-table thead th{
+    text-align:left;
+    font-size:14px;
+    font-weight:700;
+    color:#222;
+    padding:10px 18px;
+}
+
+.orders-table tbody td{
+    padding:20px 18px;
+    color:#999;
+    font-size:14px;
+    border-top:1px solid #f1f1f1;
+    border-bottom:1px solid #f1f1f1;
+}
+
+.orders-table tbody tr td:first-child{
+    border-left:1px solid #f1f1f1;
+    border-radius:12px 0 0 12px;
+}
+
+.orders-table tbody tr td:last-child{
+    border-right:1px solid #f1f1f1;
+    border-radius:0 12px 12px 0;
+}
+
+.orders-table tbody tr.selected td{
+    background:#f6f6f6;
+    color:#222;
+    font-weight:600;
+}
+
+.orders-table tbody tr.pink td{
+    color:#ff2288;
+}
+
+.orders-table tbody tr:hover td{
+    background:#fafafa;
+}
